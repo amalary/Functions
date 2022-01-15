@@ -76,7 +76,7 @@ console.log(computeArea(5,25));
 
 const planetHasWater = function (planet){
 
-    if(planet === 'Earth' || planet === 'Mars'){
+    if(planet.toLowerCase() === 'earth' || planet.toLowerCase() === 'mars'){
         return true
     }
     else {
@@ -84,4 +84,5 @@ const planetHasWater = function (planet){
     };
 }; 
 
-console.log(planetHasWater('mars')); 
+console.log(planetHasWater('MaRs')); 
+
